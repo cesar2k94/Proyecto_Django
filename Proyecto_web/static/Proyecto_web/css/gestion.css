@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgb(62, 14, 151);
+  background-color: rgba(24, 64, 8);
   font-family: 'Raleway';
 }
 
@@ -134,7 +134,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgb(21, 9, 136);
+    background-color: rgba(24, 64, 8);
     color: cornsilk;
     position: absolute;
   }
@@ -229,13 +229,13 @@ p {
 }
 
 .footer {
-   background-color: rgba(11, 4, 112, 0.8);
+   background-color: rgba(24, 64, 8, 0.8);
 }
 
 
 
 .btn {
-  box-shadow: 0px 3px 3px 0px rgba(33, 35, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
 }
 
 
@@ -290,4 +290,18 @@ ul.errorlist{
   color: rgb(150, 211, 9) !important;
 
   text-decoration: none;
+}
+
+.contenedorForm{
+
+  background-color: rgba(24, 64, 8);
+
+  width: 50%;
+
+  margin: 10px auto;
+
+  border-radius: 5px;
+
+  padding: 1px 0px;
+
 }
