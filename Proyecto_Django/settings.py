@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Proyecto_web',
+    'Servicios_App',
+    'Blog_App',
+    'Contacto_App',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +122,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL='/media/' # url pública para los archivos media 
+MEDIA_ROOT= BASE_DIR / 'media' #ruta de la carpeta
+
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend" #Para poder configurar los correos
+EMAIL_HOST="smtp.gmail.com"
+EMAIL_USE_TLS=True
+EMAIL_PORT=587
+EMAIL_HOST_USER="cesarperezcosta@gmail.com"
+EMAIL_HOST_PASSWORD="Pol99Pol63"
